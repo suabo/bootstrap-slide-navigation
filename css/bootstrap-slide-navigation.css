@@ -1,0 +1,12 @@
+/* mobile */
+.navbar-default .navbar-nav {position:relative;}
+.navbar-default .navbar-nav li > a {position:relative;}
+.navbar-default .navbar-nav li .caret {position:absolute;top:50%;margin-top:-3px;right:15px;border-left:5px solid #949494; border-top:5px solid transparent; border-bottom:5px solid transparent;}
+/* main navigation - level 1 */
+.navbar-default .navbar-nav > li {position:static;}
+/* main navigation - level 2 */
+.navbar-nav .open .dropdown-menu > li > a,
+li.dropdown-submenu > ul > li > a {padding:10px 5px 10px 20px;line-height:20px;}
+.navbar-default .navbar-nav > li > ul.dropdown-menu {position:absolute;z-index:10;top:0;left:100%;width:100%;background:#F8F8F8;}
+/* main navigation - level 3 */
+.navbar-default .navbar-nav > li > ul.dropdown-menu > li > ul.dropdown-menu {position:absolute;z-index:10;top:0;left:100%;width:100%;background:#F8F8F8;}
